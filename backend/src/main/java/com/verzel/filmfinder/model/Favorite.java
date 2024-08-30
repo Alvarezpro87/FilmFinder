@@ -6,29 +6,22 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "movies")
+@Table(name = "favorites")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Movie {
+public class Favorite {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+
+    private Long movieId;
     private String title;
-
-    @Column(nullable = false)
-    private String director;
-
-    private String genre;
-
-    private double rating;
-
-    private String description;
-
+    private String posterPath;
     private String releaseDate;
-
-    // Outros atributos e métodos que possam ser necessários...
 }
