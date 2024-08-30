@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ccb58c7-1e68-4789-b098-b7ba5eeeb812" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/controller/FavoriteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/service/TmdbService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/FilmFinderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/FilmFinderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/model/FavoriteList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/model/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/repository/FavoriteListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/repository/FavoriteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/repository/MovieRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/service/FavoriteListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/service/FavoriteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/service/MovieService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/verzel/filmfinder/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/verzel/filmfinder/FilmFinderApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/verzel/filmfinder/FilmFinderApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +102,7 @@
       <workItem from="1725018372278" duration="311000" />
       <workItem from="1725018765655" duration="6070000" />
       <workItem from="1725038712622" duration="2287000" />
+      <workItem from="1725054805920" duration="774000" />
     </task>
     <servers />
   </component>
