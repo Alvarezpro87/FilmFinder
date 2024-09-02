@@ -12,8 +12,8 @@ const Header: React.FC = () => {
                     </a>
 
                     <div className="text-end">
-                        <Link to="/login" className="btn btn-outline-light me-2">Entrar</Link>
-                        <Link to="/register" className="btn btn-warning">Cadastrar</Link>
+                        <Link to="/favorite"  className="btn btn-outline-light me-2">Favoritos</Link>
+                        <Link to="/search" className="btn btn-success mt-auto">Buscar Filmes</Link>
                     </div>
                 </div>
             </div>

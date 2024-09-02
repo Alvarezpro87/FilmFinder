@@ -2,12 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
-import MovieSearch from './pages/MovieSearch';
-import FavoriteList from './pages/FavoriteList';
-import SharedFavoriteList from './pages/SharedFavoriteList';
+import MovieSearch from './pages/Search';
+import Favorite from './pages/Favorite';
 import Home from './pages/Home';
-import Register from './pages/Register';
-import Login from './pages/Login';
+import SharedFavorites from './components/SharedFavorites';
 
 const App: React.FC = () => {
     return (
@@ -16,12 +14,10 @@ const App: React.FC = () => {
                 <Header />
                 <div className="flex-grow-1">
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/login" element={<Login />} />
+                        <Route path="/" element={<Home />} />                        
                         <Route path="/search" element={<MovieSearch />} />
-                        <Route path="/favorites" element={<FavoriteList />} />
-                        <Route path="/share/:token" element={<SharedFavoriteList />} />
-                        <Route path="/register" element={<Register />} />
+                        <Route path="/favorite" element={<Favorite />} />                        
+                        <Route path="/favorites/shared/:uuid" element={<SharedFavorites />} />  {/* Corrigi o path aqui */}                 
                     </Routes>
                 </div>
                 <Footer />
