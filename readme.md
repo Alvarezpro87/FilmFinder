@@ -53,8 +53,8 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis (Essas var
     docker-compose up -d --build
 
 📑 Endpoints da API
-GET /api/movies/search?query={nome_do_filme}: Busca por filmes.
-GET /api/movies/favorites: Retorna os filmes favoritos.
-POST /api/movies/favorites: Salva um filme como favorito.
-DELETE /api/movies/favorites/{id}: Remove um filme dos favoritos.
-POST /api/movies/share: Gera um link para compartilhar uma lista de favoritos.
+ - GET /api/movies/search?query={nome_do_filme}: Busca por filmes.
+ - GET /api/movies/favorites: Retorna os filmes favoritos.
+ - POST /api/movies/favorites: Salva um filme como favorito.
+ - DELETE /api/movies/favorites/{id}: Remove um filme dos favoritos.
+ - POST /api/movies/share: Gera um link para compartilhar uma lista de favoritos.
