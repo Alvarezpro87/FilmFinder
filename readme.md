@@ -9,7 +9,7 @@ O **FilmFinder** é uma aplicação web que permite aos usuários **buscar**, **
 - **🔗 Compartilhamento de listas**: Geração de links para compartilhamento de listas de filmes favoritos.
 
 ### 🛠️ Tecnologias Utilizadas
-- **Frontend**: React, TypeScript, Vite
+- **Frontend**: React, TypeScript, Vite, Bootstrap
 - **Backend**: Java, Spring Boot
 - **Banco de Dados**: PostgreSQL
 - **Containerização**: Docker, Docker Compose
@@ -30,7 +30,10 @@ A aplicação **FilmFinder** está disponível online e pode ser acessada direta
 1. **Clonar o Repositório**
    ```bash
    git clone https://github.com/seu-usuario/FilmFinder.git
-2. **Configuração do .env no Backend**
+
+2. **Cadastro no site do Tmdb**
+   Acesse o site do **[Acesse o site do tmdb](https://developer.themoviedb.org/reference/intro/getting-started)** e faça o seu cadastro para gerar a API KEY.
+3. **Configuração do .env no Backend**
 Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis (Essas variáveis estão por default, mude caso necessário):
 
     ```bash
@@ -43,11 +46,11 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis (Essas var
     BACKEND_PORT=8080
     FRONTEND_PORT=3000
     FRONTEND_URL=http://localhost:3000
-3. **Configuração do .env no Frontend**
+1. **Configuração do .env no Frontend**
     ```bash
     VITE_REACT_APP_API_BASE_URL=http://localhost:8080/api/movies
 
-4. **Build e Start dos Contêineres**
+2. **Build e Start dos Contêineres**
    Certifique-se de ter o Docker e o Docker Compose instalados na sua máquina:
     ```bash
     docker-compose up -d --build
