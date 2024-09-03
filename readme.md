@@ -32,7 +32,7 @@ A aplicação **FilmFinder** está disponível online e pode ser acessada direta
    git clone https://github.com/seu-usuario/FilmFinder.git
 
 2. **Cadastro no site do Tmdb**
-   Acesse o site do **[Acesse o site do tmdb](https://developer.themoviedb.org/reference/intro/getting-started)** e faça o seu cadastro para gerar a API KEY.
+    - Acesse o site do **[Acesse o site do tmdb](https://developer.themoviedb.org/reference/intro/getting-started)** e faça o seu cadastro para gerar a API KEY.
 3. **Configuração do .env no Backend**
 Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis (Essas variáveis estão por default, mude caso necessário):
 
